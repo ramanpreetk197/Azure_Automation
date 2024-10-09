@@ -26,4 +26,4 @@ connection.commit()
 cursor.close()
 connection.close()
 
-print("SQL script executed successfully.......")
+print("SQL script executed successfully....")
