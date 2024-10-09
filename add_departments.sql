@@ -8,8 +8,7 @@ CREATE TABLE IF NOT EXISTS departments (
 
 
 INSERT INTO departments (department_name, location)
-VALUES ('HR', 'New York'), ('Engineering', 'San Francisco');
-VALUES ('Finance', 'Waterloo'), ('Economics', 'Brampton');
+VALUES ('HR', 'New York'), ('Engineering', 'San Francisco'), ('Finance', 'Waterloo'), ('Economics', 'Brampton');
 
 CREATE TABLE IF NOT EXISTS employees (
     employee_id INT AUTO_INCREMENT PRIMARY KEY,
